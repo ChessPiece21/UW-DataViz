@@ -16,7 +16,7 @@ students <- paste("Student", 1:1000)
 # standard deviation of 10
 math_grades <- rnorm(1:1000, 88, 10)
 
-# Replace any values in the `math_grades vector` that are above 100 with
+# Replace any values in the `math_grades vector` that are over 100 with
 # the number 100
 math_grades <- replace(math_grades, math_grades > 100, 100)
 
